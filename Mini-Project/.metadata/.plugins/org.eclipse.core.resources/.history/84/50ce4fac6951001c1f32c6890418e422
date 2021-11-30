@@ -1,0 +1,7 @@
+package com.sodastudios.miniapp;
+
+public class Collection {
+	String name;
+	Boolean isAlcoholic;
+	Boolean isSoda;
+}

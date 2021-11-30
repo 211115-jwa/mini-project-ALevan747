@@ -1,0 +1,10 @@
+package nov30;
+
+import java.util.ArrayList;
+
+public class arraylist {
+	ArrayList<String> animals = new ArrayList<String>();
+	animals.add("Turtle");
+	animals.add("Black Bear");
+
+}

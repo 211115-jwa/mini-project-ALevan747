@@ -1,0 +1,27 @@
+INDEX VERSION 1.131+C:\Users\AL Standard\Documents\Revature\Projects\Mini-Project\.metadata\.plugins\org.eclipse.jdt.core
+390968744.index
+989501122.index
+1182731876.index
+2465719525.index
+3155848936.index
+492661241.index
+3999430264.index
+131017871.index
+1559378706.index
+2341429097.index
+983560320.index
+3920552476.index
+1518032681.index
+3314276177.index
+218564136.index
+2854691163.index
+2145578987.index
+1875517212.index
+636651648.index
+1048084851.index
+4291537168.index
+1257097851.index
+2159700244.index
+379779089.index
+1539686961.index
+1478674338.index

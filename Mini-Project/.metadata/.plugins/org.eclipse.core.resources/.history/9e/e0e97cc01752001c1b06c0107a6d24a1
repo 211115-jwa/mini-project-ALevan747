@@ -1,0 +1,24 @@
+package nov30;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+
+public class arraylist {
+	public static void main(String[]args) {
+		ArrayList<String> animals = new ArrayList<String>();
+		animals.add("Turtle");
+		animals.add("Black Bear");
+		animals.add("Shark");
+		animals.add("Tiger");
+		animals.add("Koala");
+		System.out.println(animals);
+		
+		Collections.shuffle(animals);
+		System.out.println(animals);
+		
+		Map<String,List<String>> newArrayList 
+		
+	}
+	
+}

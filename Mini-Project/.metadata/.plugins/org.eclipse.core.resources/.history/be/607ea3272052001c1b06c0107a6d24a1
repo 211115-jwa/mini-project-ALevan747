@@ -1,0 +1,19 @@
+package nov30;
+
+public class Speak {
+	public static void main(String[] args) {
+		Map<String,Animal> t = new HashMap<String, Animal>();
+		Animal d = new Dog();
+		t.put("Woof",d);
+		Animal c = new Cat();
+		t.put("Meow", c);
+		Animal ch= new Cheems();
+		t.put("Cheemsburger", ch);
+		
+		(t.keySet()).forEach(s ->{
+			System.out.println(t.get(s).speak());
+			
+			
+		});
+
+}

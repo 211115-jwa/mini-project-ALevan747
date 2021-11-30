@@ -1,0 +1,16 @@
+package nov30;
+
+import java.util.ArrayList;
+
+public class arraylist {
+	public static void main(String[]args) {
+		ArrayList<String> animals = new ArrayList<String>();
+		animals.add("Turtle");
+		animals.add("Black Bear");
+		animals.add("Shark");
+		animals.add("Tiger");
+		animals.add("Koala");
+		System.out.println(animals);
+	}
+
+}

@@ -1,0 +1,32 @@
+package com.sodastudios.miniapp;
+
+import io.javalin.Javalin;
+
+public class Driver {
+	static int currentIndex;
+	static Collection[] collections;
+	
+	public static void main(String[]args) {
+		currentIndex = 0;
+		collections = new Collection[15];
+		
+		Javalin app = Javalin.create();
+		
+		//app.start(insert port number here);
+		
+		app.post("/Collection", ctx ->{
+			//collection1.Collection[currentIndex] = ctx.formParam("drink");
+			Collection collection = new Collection();
+			collection.name = ctx.formParam("name");
+			collection.flavor = ctx.formParam("flavor");
+			collection.type = ctx.formParam("type");
+			collection.isAlcoholic = Boolean.getBoolean("isAlcoholic");
+			
+			collections[currentIndex] = collection;
+			currentIndex++;
+		});
+		
+		
+	}
+
+}
