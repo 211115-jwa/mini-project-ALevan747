@@ -8,7 +8,7 @@ public class Driver {
 	
 	public static void main(String[]args) {
 		currentIndex = 0;
-		collections = new Collection[15];
+		collections = new Collection[10];
 		
 		Javalin app = Javalin.create();
 		
@@ -24,7 +24,7 @@ public class Driver {
 			collections[currentIndex] = collection;
 			currentIndex++;
 			
-			String responseText = " ";
+			String responseText = "";
 			
 			for(Collection eachDrink : collections) {
 				System.out.println(eachDrink);

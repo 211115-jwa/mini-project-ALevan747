@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel = "stylesheet" href="styles.css">
         <title>
             Collection Application
         </title>
@@ -13,26 +14,27 @@
     <h1 style="color:goldenrod;">
         <u>Drink Data Collection</u>
     </h1>
-    <nav>
-        <ul>
-        <a href="..\Mini-Project\Mini-Project.html">Home</a>
-        </ul>
-    </nav>
+    <div class="topnav">
+        <a class="active" href="..\Mini-Project\Mini-Project.html">Home</a>
+        <a href="..\Mini-Project\Collection.html">Collection</a>
+        <a href="..\Mini-Project\Contact.html">Contact</a>
+        <a href="..\Mini-Project\About.html">About</a>
+    </div>
+    <br>
     <form action="http://localhost:8080/Collection" method="POST">
         <label for="name">Add the information for your drink:</label>
-        --id is for labels in boxes
-        <input type="text" name="name" id="Drink Name">
-        <input type="text" name="flavor" id = "Flavor">
-        <input type="text" name="type" id = "Type of Drink">
-        <input type="boolean" name="isAlcoholic" id = "Is it Alcoholic?">
+        <input type="text" name="name" id="Drink Name" placeholder="Name of Drink">
+        <input type="text" name="flavor" id = "Flavor" placeholder="What is the flavor?">
+        <input type="text" name="type" id = "Type of Drink" placeholder="Type of Drink">
+        <input type="boolean" name="isAlcoholic" id = "Is it Alcoholic?" placeholder="Alchoholic? true/false">
         <button>Submit and View the Collection</button>
     </form>
-    
-    
-    
-    
     </body>
-    <footer style="text-align: center;">
-        Testing footer
+    
+    <footer>
+        <p style="text-align: center;background-color: darkred;height: 65px;">
+            <br>
+            <b>--Soda Studios is not responsible for any related injuries due to use of this website.--</b>
+        </p>
     </footer>
 </html>
